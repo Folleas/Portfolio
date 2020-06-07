@@ -1,0 +1,75 @@
+.projectDisplay {
+    text-align: center;
+}
+
+.projectDisplay h4 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 70px;
+    text-align: center;
+}
+
+.projectDisplay p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.projectDisplay > .project1 {
+    background: #ffbd69;
+    padding-bottom: 10px;
+}
+
+.projectDisplay > .project2 {
+    background: #d4ebd0;
+    padding-bottom: 10px;
+}
+
+.projectDisplay > .project3 {
+    background: #fff3cd;
+    padding-bottom: 10px;
+}
+
+.projectDisplay > .project1 h4 {
+    color: #202040;
+    padding-bottom: 60px;
+}
+
+.projectDisplay > .project1 p {
+    color: #543864;
+    padding-bottom: 120px;
+}
+
+.projectDisplay > .project2 h4 {
+    color: #856c8b;
+    background-color: rgba();
+    padding-bottom: 60px;
+}
+
+.projectDisplay > .project2 p {
+    color: #a4c5c6;
+    padding-bottom: 120px;
+}
+
+.projectDisplay > .project3 h4 {
+    color: #4d3e3e;
+    padding-bottom: 60px;
+}
+
+.projectDisplay > .project3 p {
+    color: #4d3e6e;
+    padding-bottom: 120px;
+}
+
+.projectDisplay img {
+    margin-top: 100px;
+}
+
+.projectDisplay iframe {
+    margin-top: 100px;
+}
