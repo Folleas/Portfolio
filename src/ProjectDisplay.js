@@ -3,6 +3,7 @@ import React from 'react';
 import './ProjectDisplay.css'
 import gif1 from './img/Plazza.gif'
 import gif2 from './img/Nanotekspice.gif'
+import gif3 from './img/Escape.gif'
 
 function ProjectDisplay() {
     return (
@@ -20,7 +21,7 @@ function ProjectDisplay() {
                 <ProjectsGifs img={projectObj[3].img} title={projectObj[3].title} description={projectObj[3].description} />
             </div>
             <div className="project5">
-                <ProjectsUnity game={projectUnityObj[0].game} title={projectUnityObj[0].title} description={projectUnityObj[0].description} />
+                <ProjectsUnity game={projectObj[4].game} title={projectObj[4].title} description={projectObj[4].description} />
             </div>
         </div>
     );
@@ -46,6 +47,11 @@ const projectObj = [
         img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,
         title: 'MyRunner',
         description: 'This was the first game I made in my curriculum. We were asked to build a small video game based on the rules of a finite Endless Running Game. First time managing inputs, animating sprites or simply developping a game from scratch ! The parallax effect\'s making was simple, but so pleasant to see that I think it\'s maybe one of the factor that made me think video games is what i want to do.'
+    },
+    {
+        img: <img src={gif3} alt="gif" height="70%" width="70%"></img>,
+        title: 'Escape',
+        description: 'I made Escape during my first game jam. I was pretty sober on the theme interpretation (It was "Escape"). I had already fooled around unity but this is my first "real" experience with it. I loved it.'
     }
 ];
 
