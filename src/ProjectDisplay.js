@@ -21,7 +21,7 @@ function ProjectDisplay() {
                 <ProjectsGifs img={projectObj[3].img} title={projectObj[3].title} description={projectObj[3].description} />
             </div>
             <div className="project5">
-                <ProjectsUnity game={projectObj[4].game} title={projectObj[4].title} description={projectObj[4].description} />
+                <ProjectsGifs game={projectObj[4].game} title={projectObj[4].title} description={projectObj[4].description} />
             </div>
         </div>
     );
