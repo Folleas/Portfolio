@@ -3,7 +3,6 @@ import './Header.css';
 import Background from './img/background1.jpeg';
 
 const myStyles = {
-    backgroundImage: `url( ${Background} )`,
     height: '50vh',
     backgroundSize: 'cover'
 }

@@ -71,7 +71,7 @@ const projectUnityObj = [
 function ProjectsGifs(props)
 {
     return (
-        <div>
+        <div className='frame'>
             <span>
                 {props.img}
             </span>

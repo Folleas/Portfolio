@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3558cca5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bf9c1cb0.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bf9c1cb0.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.db605a1d.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.db605a1d.js.map",
+    "static/js/2.76eccd6b.chunk.js": "/Portfolio/static/js/2.76eccd6b.chunk.js",
+    "static/js/2.76eccd6b.chunk.js.map": "/Portfolio/static/js/2.76eccd6b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.5a04c1e62024f0ac7aa72a61a055e1b7.js": "/Portfolio/precache-manifest.5a04c1e62024f0ac7aa72a61a055e1b7.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.3558cca5.chunk.css.map": "/Portfolio/static/css/main.3558cca5.chunk.css.map",
+    "static/js/2.76eccd6b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.76eccd6b.chunk.js.LICENSE.txt",
+    "static/media/Escape.gif": "/Portfolio/static/media/Escape.012ade00.gif",
+    "static/media/Nanotekspice.gif": "/Portfolio/static/media/Nanotekspice.9e102395.gif",
+    "static/media/Plazza.gif": "/Portfolio/static/media/Plazza.7712ca56.gif",
+    "static/media/background1.jpeg": "/Portfolio/static/media/background1.58416de6.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db605a1d.js",
+    "static/js/2.76eccd6b.chunk.js",
+    "static/css/main.3558cca5.chunk.css",
+    "static/js/main.bf9c1cb0.chunk.js"
+  ]
+}

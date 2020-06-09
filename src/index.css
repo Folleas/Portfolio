@@ -4,3 +4,33 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
+h1 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+h3 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+p {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+blockquote {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+pre {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}

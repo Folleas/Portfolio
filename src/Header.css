@@ -2,20 +2,27 @@ header {
     margin: 0 auto;
     text-align: center;
     padding-top: 300px;
+    padding-bottom: 125px;
+    background-color: #64B6AC;
 }
 
 header h1 {
     margin: 0;
     font-size: 8rem;
-    color: rgb(33, 37, 41);
+    color: #FEE9E1;
+    border-style: solid;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 header p {
     font-weight: 700;
     font-size: 1.75rem;
-    color: rgb(33, 37, 41);
+    color: #FEE9E1;
     margin-bottom: 30px;
     margin-top: 5px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 header a {
