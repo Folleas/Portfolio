@@ -8,6 +8,9 @@ import gif3 from './img/Escape.gif'
 function ProjectDisplay() {
     return (
         <div className="projectDisplay">
+            <div className="project5">
+                <ProjectsGifs img={projectObj[4].img} title={projectObj[4].title} description={projectObj[4].description} />
+            </div>
             <div className="project1">
                 <ProjectsGifs img={projectObj[0].img} title={projectObj[0].title} description={projectObj[0].description} />
             </div>
@@ -19,9 +22,6 @@ function ProjectDisplay() {
             </div>
             <div className="project4">
                 <ProjectsGifs img={projectObj[3].img} title={projectObj[3].title} description={projectObj[3].description} />
-            </div>
-            <div className="project5">
-                <ProjectsGifs img={projectObj[4].img} title={projectObj[4].title} description={projectObj[4].description} />
             </div>
         </div>
     );
