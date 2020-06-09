@@ -12,8 +12,8 @@ function Header(props) {
     return (
         <header style= {myStyles}>
             <h1> {props.title} </h1>
-            <p>Mon petit portfolio des familles</p>
-            <a href="#button"> {props.button} </a>
+            <p>Rayann Folleas</p>
+            {/* <a href="#button"> {props.button} </a> */}
         </header>
     );
 }
