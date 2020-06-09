@@ -17,6 +17,12 @@ function ProjectDisplay() {
             <div className="project3">
                 <ProjectsGifs img={projectObj[2].img} title={projectObj[2].title} description={projectObj[2].description} />
             </div>
+            <div className="project4">
+                <ProjectsGifs img={projectObj[3].img} title={projectObj[3].title} description={projectObj[3].description} />
+            </div>
+            <div className="project5">
+                <ProjectsGifs img={projectObj[4].img} title={projectObj[4].title} description={projectObj[4].description} />
+            </div>
         </div>
     );
 }
