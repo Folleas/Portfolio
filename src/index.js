@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 function App() {
   return (
     <div>
-      <Navigation logoTitle="Portfolio"/>
+      {/* <Navigation logoTitle="Portfolio"/> */}
       <Header title="Portfolio" button="Le Button s'il vous plait"/>
       <Services/>
       <ProjectDisplay/>

@@ -2,8 +2,10 @@ header {
     margin: 0 auto;
     text-align: center;
     padding-top: 300px;
-    padding-bottom: 125px;
+    padding-bottom: 215px;
     background-color: #64B6AC;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
 }
 
 header h1 {
