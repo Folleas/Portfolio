@@ -8,9 +8,6 @@ import gif3 from './img/Escape.gif'
 function ProjectDisplay() {
     return (
         <div className="projectDisplay">
-            <div className="project5">
-                <ProjectsGifs img={projectObj[4].img} title={projectObj[4].title} description={projectObj[4].description} />
-            </div>
             <div className="project1">
                 <ProjectsGifs img={projectObj[0].img} title={projectObj[0].title} description={projectObj[0].description} />
             </div>
@@ -23,11 +20,19 @@ function ProjectDisplay() {
             <div className="project4">
                 <ProjectsGifs img={projectObj[3].img} title={projectObj[3].title} description={projectObj[3].description} />
             </div>
+            <div className="project5">
+                <ProjectsGifs img={projectObj[4].img} title={projectObj[4].title} description={projectObj[4].description} />
+            </div>
         </div>
     );
 }
 
 const projectObj = [
+    {
+        img: <img src={gif3} alt="gif" height="70%" width="70%"></img>,
+        title: 'Escape',
+        description: 'I made Escape during my first game jam. I was pretty sober on the theme interpretation (It was "Escape"). I had already fooled around unity but this is my first "real" experience with it. I loved it.'
+    },
     {
         img: <img src={gif1} alt="gif" height="70%" width="70%"></img>,
         title: 'Plazza',
@@ -40,18 +45,13 @@ const projectObj = [
     },
     {
         img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,
-        title: '42sh',
-        description: 'With this project, the goal was to write a Unix SHELL based on tcsh. What I learned with it was to develop group coherence but most importantly to be rigorous. We had to implement a lot of features and stability was mandatory.'
-    },
-    {
-        img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,
         title: 'MyRunner',
         description: 'This was the first game I made in my curriculum. We were asked to build a small video game based on the rules of a finite Endless Running Game. First time managing inputs, animating sprites or simply developping a game from scratch ! The parallax effect\'s making was simple, but so pleasant to see that I think it\'s maybe one of the factor that made me think video games is what i want to do.'
     },
     {
-        img: <img src={gif3} alt="gif" height="70%" width="70%"></img>,
-        title: 'Escape',
-        description: 'I made Escape during my first game jam. I was pretty sober on the theme interpretation (It was "Escape"). I had already fooled around unity but this is my first "real" experience with it. I loved it.'
+        img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,
+        title: '42sh',
+        description: 'With this project, the goal was to write a Unix SHELL based on tcsh. What I learned with it was to develop group coherence but most importantly to be rigorous. We had to implement a lot of features and stability was mandatory.'
     }
 ];
 
