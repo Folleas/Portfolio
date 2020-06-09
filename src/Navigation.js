@@ -3,7 +3,7 @@ import React from 'react';
 import './Navigation.css';
 
 function Navigation(props) {
-  const sections = ['Home', 'About', 'Contact'];
+  const sections = ['Portfolio', 'CV', 'Contact'];
   const navLinks = sections.map( section => {
     return (
       <li><a href={'#' + section}>{section}</a></li>
