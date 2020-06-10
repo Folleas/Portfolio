@@ -6,12 +6,14 @@ import Navigation from './Navigation';
 import Header from './Header';
 import Services from './Services';
 import ProjectDisplay from './ProjectDisplay';
+import ContactSticky from './ContactSticky';
 import * as serviceWorker from './serviceWorker';
 
 function App() {
   return (
     <div>
       {/* <Navigation logoTitle="Portfolio"/> */}
+      <ContactSticky />
       <Header title="Portfolio" button="Le Button s'il vous plait"/>
       <Services/>
       <ProjectDisplay/>

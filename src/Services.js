@@ -26,7 +26,7 @@ const iconObj = [
     {
         icon: <ion-icon name="game-controller-outline"></ion-icon>,
         title: 'Interactivity',
-        description: 'Show my heat towards video games'
+        description: 'Show my enthusiasm for human-machine interaction'
     },
     {
         icon: <ion-icon name="hammer-outline"></ion-icon>,
