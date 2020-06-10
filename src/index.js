@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       {/* <Navigation logoTitle="Portfolio"/> */}
-      <ContactSticky />
+      {/* <ContactSticky /> */}
       <Header title="Portfolio" button="Le Button s'il vous plait"/>
       <Services/>
       <ProjectDisplay/>

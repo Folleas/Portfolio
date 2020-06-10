@@ -41,7 +41,7 @@ const projectObj = [
     {
         img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,
         title: 'Nanotekspice',
-        description: 'The goal with this projevt was to build a logic simulator that builds a graph (the nodes of which will be simulated digital electroniccomponents, inputs or outputs) from a configuration file, and injects values into that graph to get results. I really like this one. It was my first real C++ project and it made me grasp concepts such as interfaces, abstraction, encapsulation and polymorphism.'
+        description: 'The goal with this project was to build a logic simulator that builds a graph (the nodes of which will be simulated digital electroniccomponents, inputs or outputs) from a configuration file, and injects values into that graph to get results. I really like this one. It was my first real C++ project and it made me grasp concepts such as interfaces, abstraction, encapsulation and polymorphism.'
     },
     {
         img: <img src={gif2} alt="gif" height="70%" width="70%"></img>,

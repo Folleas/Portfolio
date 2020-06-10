@@ -12,9 +12,9 @@ class ContactSticky extends React.Component {
     render() {
         return (
             <div>
-                <Sticky sides={sides}>
+                {/* <Sticky sides={sides}>
                     <h1>Ouisticky</h1>
-                </Sticky>
+                </Sticky> */}
             </div>
         );
     }

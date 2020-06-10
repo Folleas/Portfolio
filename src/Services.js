@@ -11,7 +11,7 @@ function Services() {
                 <Icons icon={iconObj[0].icon} title={iconObj[0].title} description={iconObj[0].description} />
                 <Icons icon={iconObj[1].icon} title={iconObj[1].title} description={iconObj[1].description} />
                 <Icons icon={iconObj[2].icon} title={iconObj[2].title} description={iconObj[2].description} />
-                <Icons icon={iconObj[3].icon} title={iconObj[3].title} description={iconObj[3].description} />
+                {/* <Icons icon={iconObj[3].icon} title={iconObj[3].title} description={iconObj[3].description} /> */}
             </div>
         </div>
     );
