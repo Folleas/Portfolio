@@ -4,15 +4,18 @@
 
 .projectDisplay h4 {
     margin-bottom: 20px;
-    font-family: sans-serif;
     font-weight: 800;
     line-height: 1.5;
-    font-size: 75px;
+    font-size: 70px;
     text-align: center;
+    border-style: solid;
+    margin-left: 650px;
+    margin-right: 650px;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .projectDisplay p {
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -43,17 +46,17 @@
 
 .projectDisplay > h4 {
     color: #202040;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .projectDisplay > p {
     color: #543864;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 
 .frame {
     border-style: solid;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .projectDisplay img {
